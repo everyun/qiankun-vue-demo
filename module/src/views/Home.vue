@@ -1,10 +1,8 @@
 <template>
-<!--  <CheckboxGroup v-model="filterParams">-->
-<!--    <Checkbox v-for="(item, index) in filterList" :key="index" :label="item.typeKey">-->
-<!--      &lt;!&ndash;      <span class="labelName">{{item['typeName' + language]}}</span>&ndash;&gt;-->
-<!--      &lt;!&ndash;      <span class="count" v-if="item.count > 0">{{isEnglish ? ' ('+ item.count + ')' : '（'+ item.count + '）'}}</span>&ndash;&gt;-->
-<!--    </Checkbox>-->
-<!--  </CheckboxGroup>-->
+  <CheckboxGroup v-model="filterParams">
+    <Checkbox v-for="(item, index) in filterList" :key="index" :label="item.typeKey">
+    </Checkbox>
+  </CheckboxGroup>
 </template>
 
 <script>
